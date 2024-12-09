@@ -1,0 +1,21 @@
+import numpy as np
+
+N_SAMPLES = 1_000
+
+MIN_LAMBDA_LOG_10 = -2
+MAX_LAMBDA_LOG_10 = 2
+NUM_LAMBDAS = 100
+
+LAMBDAS = np.logspace(MIN_LAMBDA_LOG_10, MAX_LAMBDA_LOG_10, NUM_LAMBDAS)
+
+DGP_OPTIONS = ["3x_1 - 2x_2", "optim_slides", "california_housing", "diabetes", ]
+
+DGP = DGP_OPTIONS[0]
+
+# DGP1
+MIN_THETA = -5
+MAX_THETA = 5
+N_VALUES_FOR_EACH_THETA = 50
+
+# DGP 2
+CORR_AMOUNT = 0.99
