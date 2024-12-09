@@ -1,0 +1,136 @@
+{
+    "datetime": "2024-12-09 05:43:57",
+    "MIN_LAMBDA_LOG_10": -2,
+    "MAX_LAMBDA_LOG_10": 2,
+    "NUM_LAMBDAS": 100,
+    "DGP": "california_housing",
+    "MIN_THETA": -5,
+    "MAX_THETA": 5,
+    "N_VALUES_FOR_EACH_THETA": 50,
+    "REGULARIZATION": "elastic",
+    "lambda_l1_norm_rel_file": "out\\california_housing_elastic\\lambda_l1_norm_rel.html",
+    "lambda_l1_norm_rel_log_lambda_file": "out\\california_housing_elastic\\lambda_l1_norm_rel_log_lambda.html",
+    "lambda_l1_norm_rel_narrow_x_file": "out\\california_housing_elastic\\lambda_l1_norm_rel_narrow_x.html",
+    "lambda_l1_norm_rel_super_narrow_x_file": "out\\california_housing_elastic\\lambda_l1_norm_rel_super_narrow_x.html",
+    "lambda_l2_norm_rel_file": "out\\california_housing_elastic\\lambda_l2_norm_rel.html",
+    "lambda_l2_norm_rel_log_lambda_file": "out\\california_housing_elastic\\lambda_l2_norm_rel_log_lambda.html",
+    "lambda_l2_norm_rel_narrow_x_file": "out\\california_housing_elastic\\lambda_l2_norm_rel_narrow_x.html",
+    "lambda_l2_norm_rel_super_narrow_file": "out\\california_housing_elastic\\lambda_l2_norm_rel_super_narrow.html",
+    "lambda_combined_norm_rel_file": "out\\california_housing_elastic\\lambda_combined_norm_rel.html",
+    "lambda_combined_norm_rel_log_lambda_file": "out\\california_housing_elastic\\lambda_combined_norm_rel_log_lambda.html",
+    "lambda_combined_norm_rel_narrow_x_file": "out\\california_housing_elastic\\lambda_combined_norm_rel_narrow_x.html",
+    "lambda_combined_norm_rel_super_narrow_file": "out\\california_housing_elastic\\lambda_combined_norm_rel_super_narrow.html",
+    "relationship_l1_norm": {
+        "linear": {
+            "R2": 0.06931353953338504,
+            "pearson": -0.26327464658296484,
+            "p_val": 0.008132740282115948
+        },
+        "quadratic": {
+            "R2": 0.10968850830024746,
+            "pearson": -0.263274646582965,
+            "p_val": 0.008132740282115847
+        },
+        "cubic": {
+            "R2": 0.1396023870174331,
+            "pearson": -0.263274646582965,
+            "p_val": 0.008132740282115847
+        },
+        "log": {
+            "R2": 0.813268322935697,
+            "pearson": -0.9018139070427423,
+            "p_val": 1.7329756814727267e-37
+        },
+        "exp": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sqrt": {
+            "R2": 0.15167476573517324,
+            "pearson": -0.38945444629015724,
+            "p_val": 6.204357640555352e-05
+        },
+        "1/x": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "1/x^2": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sigmoid": {
+            "R2": -0.12955463874132445,
+            "pearson": -0.2792367060435714,
+            "p_val": 0.004901253213258973
+        },
+        "tanh": {
+            "R2": -0.2640530298862398,
+            "pearson": -0.29488932582733685,
+            "p_val": 0.0028980769700850486
+        }
+    },
+    "relationship_l2_norm": {
+        "linear": {
+            "R2": 0.06344996825896088,
+            "pearson": -0.2518927713511465,
+            "p_val": 0.011466061993655255
+        },
+        "quadratic": {
+            "R2": 0.1004097392556188,
+            "pearson": -0.2518927713511467,
+            "p_val": 0.0114660619936551
+        },
+        "cubic": {
+            "R2": 0.12779368024009585,
+            "pearson": -0.2518927713511467,
+            "p_val": 0.0114660619936551
+        },
+        "log": {
+            "R2": 0.7970193778659163,
+            "pearson": -0.8927594176853669,
+            "p_val": 1.0439022903819802e-35
+        },
+        "exp": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sqrt": {
+            "R2": 0.13897023703768496,
+            "pearson": -0.3727871202679688,
+            "p_val": 0.00013364447206765527
+        },
+        "1/x": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "1/x^2": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sigmoid": {
+            "R2": -0.017577233688586213,
+            "pearson": -0.26194274829737274,
+            "p_val": 0.008472632967919528
+        },
+        "tanh": {
+            "R2": -0.14538587137333137,
+            "pearson": -0.27593414245557685,
+            "p_val": 0.005455759519437021
+        }
+    },
+    "N_SAMPLES": 20640,
+    "N_FEATURES": 8,
+    "THETA_TRUE": null
+}

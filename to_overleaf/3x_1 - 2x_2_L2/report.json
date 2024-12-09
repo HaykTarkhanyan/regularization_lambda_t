@@ -1,0 +1,137 @@
+{
+    "datetime": "2024-12-09 05:43:44",
+    "MIN_LAMBDA_LOG_10": -5,
+    "MAX_LAMBDA_LOG_10": 5,
+    "NUM_LAMBDAS": 100,
+    "DGP": "3x_1 - 2x_2",
+    "MIN_THETA": -5,
+    "MAX_THETA": 5,
+    "N_VALUES_FOR_EACH_THETA": 50,
+    "REGULARIZATION": "L2",
+    "lambda_l1_norm_rel_file": "out\\3x_1 - 2x_2_L2\\lambda_l1_norm_rel.html",
+    "lambda_l1_norm_rel_log_lambda_file": "out\\3x_1 - 2x_2_L2\\lambda_l1_norm_rel_log_lambda.html",
+    "lambda_l1_norm_rel_narrow_x_file": "out\\3x_1 - 2x_2_L2\\lambda_l1_norm_rel_narrow_x.html",
+    "lambda_l1_norm_rel_super_narrow_x_file": "out\\3x_1 - 2x_2_L2\\lambda_l1_norm_rel_super_narrow_x.html",
+    "lambda_l2_norm_rel_file": "out\\3x_1 - 2x_2_L2\\lambda_l2_norm_rel.html",
+    "lambda_l2_norm_rel_log_lambda_file": "out\\3x_1 - 2x_2_L2\\lambda_l2_norm_rel_log_lambda.html",
+    "lambda_l2_norm_rel_narrow_x_file": "out\\3x_1 - 2x_2_L2\\lambda_l2_norm_rel_narrow_x.html",
+    "lambda_l2_norm_rel_super_narrow_file": "out\\3x_1 - 2x_2_L2\\lambda_l2_norm_rel_super_narrow.html",
+    "lambda_combined_norm_rel_file": "out\\3x_1 - 2x_2_L2\\lambda_combined_norm_rel.html",
+    "lambda_combined_norm_rel_log_lambda_file": "out\\3x_1 - 2x_2_L2\\lambda_combined_norm_rel_log_lambda.html",
+    "lambda_combined_norm_rel_narrow_x_file": "out\\3x_1 - 2x_2_L2\\lambda_combined_norm_rel_narrow_x.html",
+    "lambda_combined_norm_rel_super_narrow_file": "out\\3x_1 - 2x_2_L2\\lambda_combined_norm_rel_super_narrow.html",
+    "relationship_l1_norm": {
+        "linear": {
+            "R2": 0.2604202963982213,
+            "pearson": -0.5103139194635214,
+            "p_val": 5.835396303709755e-08
+        },
+        "quadratic": {
+            "R2": 0.40707825925394325,
+            "pearson": -0.5103139194635214,
+            "p_val": 5.835396303709818e-08
+        },
+        "cubic": {
+            "R2": 0.5110109657198318,
+            "pearson": -0.5103139194635214,
+            "p_val": 5.835396303709818e-08
+        },
+        "log": {
+            "R2": 0.7572211922999615,
+            "pearson": -0.8701845736968462,
+            "p_val": 6.911208846026708e-32
+        },
+        "exp": {
+            "R2": -1.9289044857781152,
+            "pearson": -0.7643491371684201,
+            "p_val": 2.2014725606833212e-20
+        },
+        "sqrt": {
+            "R2": 0.51252191277895,
+            "pearson": -0.7159063575489115,
+            "p_val": 5.70326924942431e-17
+        },
+        "1/x": {
+            "R2": -265.0802475921865,
+            "pearson": 0.9999582068251013,
+            "p_val": 1.2286406706662581e-201
+        },
+        "1/x^2": {
+            "R2": -5674026.519541703,
+            "pearson": 0.9466759676190238,
+            "p_val": 5.286059763917612e-50
+        },
+        "sigmoid": {
+            "R2": -1.4884110901573249,
+            "pearson": -0.5781075595371689,
+            "p_val": 3.00970051373028e-10
+        },
+        "tanh": {
+            "R2": -1.5386173434740247,
+            "pearson": -0.6333120553780803,
+            "p_val": 1.5426298242461624e-12
+        }
+    },
+    "relationship_l2_norm": {
+        "linear": {
+            "R2": 0.20926208148865322,
+            "pearson": -0.45745172585602245,
+            "p_val": 1.7114136571701733e-06
+        },
+        "quadratic": {
+            "R2": 0.33024219363421503,
+            "pearson": -0.45745172585602245,
+            "p_val": 1.7114136571701896e-06
+        },
+        "cubic": {
+            "R2": 0.41879381876669763,
+            "pearson": -0.45745172585602245,
+            "p_val": 1.7114136571701896e-06
+        },
+        "log": {
+            "R2": 0.7819295924150161,
+            "pearson": -0.8842678284405784,
+            "p_val": 3.5373033042523405e-34
+        },
+        "exp": {
+            "R2": -1.8367367784559363,
+            "pearson": -0.7759257782011736,
+            "p_val": 2.5327485336506338e-21
+        },
+        "sqrt": {
+            "R2": 0.4299975380735733,
+            "pearson": -0.6557419752262116,
+            "p_val": 1.320883721400885e-13
+        },
+        "1/x": {
+            "R2": -1160246.2787036737,
+            "pearson": 0.9461393150722465,
+            "p_val": 8.523168530912228e-50
+        },
+        "1/x^2": {
+            "R2": -1387809864308474.0,
+            "pearson": 0.8167913603456444,
+            "p_val": 3.8129957748940512e-25
+        },
+        "sigmoid": {
+            "R2": -1.7434181785694949,
+            "pearson": -0.540286311377466,
+            "p_val": 6.561122616364359e-09
+        },
+        "tanh": {
+            "R2": -1.779020177924127,
+            "pearson": -0.5709050525750865,
+            "p_val": 5.578937259048224e-10
+        }
+    },
+    "N_SAMPLES": 1000,
+    "N_FEATURES": 2,
+    "THETA_TRUE": [
+        [
+            3
+        ],
+        [
+            -2
+        ]
+    ]
+}

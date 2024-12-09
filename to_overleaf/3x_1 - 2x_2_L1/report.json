@@ -1,0 +1,143 @@
+{
+    "datetime": "2024-12-09 05:42:05",
+    "MIN_LAMBDA_LOG_10": -2,
+    "MAX_LAMBDA_LOG_10": 2,
+    "NUM_LAMBDAS": 100,
+    "DGP": "3x_1 - 2x_2",
+    "MIN_THETA": -5,
+    "MAX_THETA": 5,
+    "N_VALUES_FOR_EACH_THETA": 50,
+    "REGULARIZATION": "L1",
+    "lambda_l1_norm_rel_file": "out\\3x_1 - 2x_2_L1\\lambda_l1_norm_rel.html",
+    "lambda_l1_norm_rel_log_lambda_file": "out\\3x_1 - 2x_2_L1\\lambda_l1_norm_rel_log_lambda.html",
+    "lambda_l1_norm_rel_narrow_x_file": "out\\3x_1 - 2x_2_L1\\lambda_l1_norm_rel_narrow_x.html",
+    "lambda_l1_norm_rel_super_narrow_x_file": "out\\3x_1 - 2x_2_L1\\lambda_l1_norm_rel_super_narrow_x.html",
+    "lambda_l2_norm_rel_file": "out\\3x_1 - 2x_2_L1\\lambda_l2_norm_rel.html",
+    "lambda_l2_norm_rel_log_lambda_file": "out\\3x_1 - 2x_2_L1\\lambda_l2_norm_rel_log_lambda.html",
+    "lambda_l2_norm_rel_narrow_x_file": "out\\3x_1 - 2x_2_L1\\lambda_l2_norm_rel_narrow_x.html",
+    "lambda_l2_norm_rel_super_narrow_file": "out\\3x_1 - 2x_2_L1\\lambda_l2_norm_rel_super_narrow.html",
+    "lambda_combined_norm_rel_file": "out\\3x_1 - 2x_2_L1\\lambda_combined_norm_rel.html",
+    "lambda_combined_norm_rel_log_lambda_file": "out\\3x_1 - 2x_2_L1\\lambda_combined_norm_rel_log_lambda.html",
+    "lambda_combined_norm_rel_narrow_x_file": "out\\3x_1 - 2x_2_L1\\lambda_combined_norm_rel_narrow_x.html",
+    "lambda_combined_norm_rel_super_narrow_file": "out\\3x_1 - 2x_2_L1\\lambda_combined_norm_rel_super_narrow.html",
+    "relationship_l1_norm": {
+        "linear": {
+            "R2": 0.06783829064644498,
+            "pearson": -0.26045784811835754,
+            "p_val": 0.008866259102801099
+        },
+        "quadratic": {
+            "R2": 0.10735434816509337,
+            "pearson": -0.2604578481183571,
+            "p_val": 0.008866259102801257
+        },
+        "cubic": {
+            "R2": 0.13663236695768644,
+            "pearson": -0.2604578481183571,
+            "p_val": 0.008866259102801257
+        },
+        "log": {
+            "R2": 0.7817213262966658,
+            "pearson": -0.8841500586985609,
+            "p_val": 3.707171369518728e-34
+        },
+        "exp": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sqrt": {
+            "R2": 0.14851280203872919,
+            "pearson": -0.38537358762469687,
+            "p_val": 7.515464141721638e-05
+        },
+        "1/x": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "1/x^2": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sigmoid": {
+            "R2": -0.26984165348520395,
+            "pearson": -0.27109665946068107,
+            "p_val": 0.0063686613380271595
+        },
+        "tanh": {
+            "R2": -0.39816220672703206,
+            "pearson": -0.2774546112972843,
+            "p_val": 0.005193896562989611
+        }
+    },
+    "relationship_l2_norm": {
+        "linear": {
+            "R2": 0.062421555547324425,
+            "pearson": -0.24984306183547503,
+            "p_val": 0.012179131318628699
+        },
+        "quadratic": {
+            "R2": 0.09878253439634965,
+            "pearson": -0.2498430618354748,
+            "p_val": 0.012179131318628843
+        },
+        "cubic": {
+            "R2": 0.1257231409041467,
+            "pearson": -0.2498430618354748,
+            "p_val": 0.012179131318628843
+        },
+        "log": {
+            "R2": 0.7706332853937399,
+            "pearson": -0.8778572124176812,
+            "p_val": 4.2315670054516546e-33
+        },
+        "exp": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sqrt": {
+            "R2": 0.13676777433935006,
+            "pearson": -0.36982127350836724,
+            "p_val": 0.00015254231254098997
+        },
+        "1/x": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "1/x^2": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sigmoid": {
+            "R2": -0.4637885388652483,
+            "pearson": -0.26764062454407644,
+            "p_val": 0.0071013120930753714
+        },
+        "tanh": {
+            "R2": -0.5291039775524065,
+            "pearson": -0.27275946814355234,
+            "p_val": 0.006040649422621007
+        }
+    },
+    "N_SAMPLES": 1000,
+    "N_FEATURES": 2,
+    "THETA_TRUE": [
+        [
+            3
+        ],
+        [
+            -2
+        ]
+    ]
+}

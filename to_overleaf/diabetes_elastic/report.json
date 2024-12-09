@@ -1,0 +1,136 @@
+{
+    "datetime": "2024-12-09 05:44:13",
+    "MIN_LAMBDA_LOG_10": -2,
+    "MAX_LAMBDA_LOG_10": 2,
+    "NUM_LAMBDAS": 100,
+    "DGP": "diabetes",
+    "MIN_THETA": -5,
+    "MAX_THETA": 5,
+    "N_VALUES_FOR_EACH_THETA": 50,
+    "REGULARIZATION": "elastic",
+    "lambda_l1_norm_rel_file": "out\\diabetes_elastic\\lambda_l1_norm_rel.html",
+    "lambda_l1_norm_rel_log_lambda_file": "out\\diabetes_elastic\\lambda_l1_norm_rel_log_lambda.html",
+    "lambda_l1_norm_rel_narrow_x_file": "out\\diabetes_elastic\\lambda_l1_norm_rel_narrow_x.html",
+    "lambda_l1_norm_rel_super_narrow_x_file": "out\\diabetes_elastic\\lambda_l1_norm_rel_super_narrow_x.html",
+    "lambda_l2_norm_rel_file": "out\\diabetes_elastic\\lambda_l2_norm_rel.html",
+    "lambda_l2_norm_rel_log_lambda_file": "out\\diabetes_elastic\\lambda_l2_norm_rel_log_lambda.html",
+    "lambda_l2_norm_rel_narrow_x_file": "out\\diabetes_elastic\\lambda_l2_norm_rel_narrow_x.html",
+    "lambda_l2_norm_rel_super_narrow_file": "out\\diabetes_elastic\\lambda_l2_norm_rel_super_narrow.html",
+    "lambda_combined_norm_rel_file": "out\\diabetes_elastic\\lambda_combined_norm_rel.html",
+    "lambda_combined_norm_rel_log_lambda_file": "out\\diabetes_elastic\\lambda_combined_norm_rel_log_lambda.html",
+    "lambda_combined_norm_rel_narrow_x_file": "out\\diabetes_elastic\\lambda_combined_norm_rel_narrow_x.html",
+    "lambda_combined_norm_rel_super_narrow_file": "out\\diabetes_elastic\\lambda_combined_norm_rel_super_narrow.html",
+    "relationship_l1_norm": {
+        "linear": {
+            "R2": 0.1119143743932135,
+            "pearson": -0.33453605843498196,
+            "p_val": 0.0006692598975611858
+        },
+        "quadratic": {
+            "R2": 0.17706937883334262,
+            "pearson": -0.3345360584349819,
+            "p_val": 0.0006692598975611887
+        },
+        "cubic": {
+            "R2": 0.22530041108600762,
+            "pearson": -0.3345360584349819,
+            "p_val": 0.0006692598975611887
+        },
+        "log": {
+            "R2": 0.9300087483269528,
+            "pearson": -0.9643696118848585,
+            "p_val": 2.1271280531161588e-58
+        },
+        "exp": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sqrt": {
+            "R2": 0.24159409151238442,
+            "pearson": -0.49152221873724544,
+            "p_val": 2.0708195656637938e-07
+        },
+        "1/x": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "1/x^2": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sigmoid": {
+            "R2": -1.155870514722833,
+            "pearson": -0.44929001686894604,
+            "p_val": 2.746409193202452e-06
+        },
+        "tanh": {
+            "R2": -1.1598369146336522,
+            "pearson": -0.45384598898183387,
+            "p_val": 2.112307228450239e-06
+        }
+    },
+    "relationship_l2_norm": {
+        "linear": {
+            "R2": 0.07835438400370787,
+            "pearson": -0.2799185310116277,
+            "p_val": 0.004793232222573176
+        },
+        "quadratic": {
+            "R2": 0.12399028645803756,
+            "pearson": -0.2799185310116279,
+            "p_val": 0.00479323222257315
+        },
+        "cubic": {
+            "R2": 0.1577955005463777,
+            "pearson": -0.2799185310116279,
+            "p_val": 0.00479323222257315
+        },
+        "log": {
+            "R2": 0.8720867063586004,
+            "pearson": -0.9338558273944642,
+            "p_val": 1.489954425511284e-45
+        },
+        "exp": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sqrt": {
+            "R2": 0.17079404086770322,
+            "pearson": -0.4132723567669422,
+            "p_val": 1.9249364512301018e-05
+        },
+        "1/x": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "1/x^2": {
+            "R2": null,
+            "pearson": null,
+            "p_val": null,
+            "error": "Input contains NaN."
+        },
+        "sigmoid": {
+            "R2": -0.8278866008629955,
+            "pearson": -0.4421380488101384,
+            "p_val": 4.115781394111499e-06
+        },
+        "tanh": {
+            "R2": -0.8280217736813111,
+            "pearson": -0.44645588750299053,
+            "p_val": 3.227463373420258e-06
+        }
+    },
+    "N_SAMPLES": 442,
+    "N_FEATURES": 10,
+    "THETA_TRUE": null
+}
