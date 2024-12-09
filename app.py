@@ -58,7 +58,7 @@ if os.path.exists(folder_path):
             
             key_for_title = image_file.replace(".png", "").split("\\")[-1]
             with col:
-                st.image(image, caption=file_name_to_title[key_for_title], use_column_width=True)
+                st.image(image, caption=file_name_to_title[key_for_title], use_container_width =True)
     else:
         st.warning("No images found in this folder.")
     
