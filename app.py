@@ -1,8 +1,9 @@
 import os
 import json
 import pandas as pd
-from PIL import Image
+# from PIL import Image
 import streamlit as st
+import matplotlib.image as mpimg
 
 # Define the base directory structure
 BASE_DIR = "to_overleaf"
@@ -54,7 +55,7 @@ if os.path.exists(folder_path):
         for idx, image_file in enumerate(sorted(image_files)):  # Sort to ensure consistent order
             col = cols[idx % 2]
             image_path = os.path.join(folder_path, image_file)
-            image = Image.open(image_path)
+            image = mpimg.imread(image_path)
             
             key_for_title = image_file.replace(".png", "").split("\\")[-1]
             with col:
